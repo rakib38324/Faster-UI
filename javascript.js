@@ -25,3 +25,23 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initial setup
   updateCarousel();
 });
+
+
+
+
+
+function toggleFaq(faqId) {
+  const content = document.getElementById(`faq-${faqId}`);
+  const icon = document.getElementById(`icon-${faqId}`);
+
+  // Check if it's currently hidden
+  if (content.style.maxHeight) {
+    // Close the answer
+    content.style.maxHeight = null;
+    icon.classList.remove('rotate-180');
+  } else {
+    // Open the answer (set the maxHeight to the scrollHeight for a smooth transition)
+    content.style.maxHeight = content.scrollHeight + "px";
+    icon.classList.add('rotate-180');
+  }
+}
