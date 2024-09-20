@@ -7,7 +7,7 @@ menuBtn.addEventListener('click', () => {
 });
 
 
-
+// carousel functionality
 document.addEventListener("DOMContentLoaded", function () {
   const carouselItems = document.querySelector('.carousel-items');
   const totalSlides = document.querySelectorAll('.carousel-item').length;
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
+// drop down section for frequently asked question
 function toggleFaq(faqId) {
   const content = document.getElementById(`faq-${faqId}`);
   const icon = document.getElementById(`icon-${faqId}`);
