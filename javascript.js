@@ -1,3 +1,13 @@
+// Toggle mobile menu visibility
+const menuBtn = document.getElementById('menu-btn');
+const mobileMenu = document.getElementById('mobile-menu');
+
+menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+});
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
   const carouselItems = document.querySelector('.carousel-items');
   const totalSlides = document.querySelectorAll('.carousel-item').length;
