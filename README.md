@@ -1,4 +1,4 @@
-# Assalamualikum,  Welcome to my task.
+# Assalamualikum,  Welcome to my job task.
 This is a fontend project only. This taks from Ollyo and Alhamdulillah, I complet it properly.
 
 The technologies are:
