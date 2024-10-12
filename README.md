@@ -1,5 +1,5 @@
 # Assalamualikum,  Welcome to my job task.
-This is a fontend project only. This taks from Ollyo and Alhamdulillah, I complet it properly.
+This is a front-end project only. This is from Ollyo and Alhamdulillah, I completed it properly.
 
 The technologies are:
 HTML, TailwindCSS, JavaScript
